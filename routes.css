@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans';
+}
+
+
+-------Top Bar ------------*/
+.topbar{
+    height: 40px;
+    background-color: #474747;
+    width: 100%;
+    padding: 8px 0;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    color: #FFF;
+}
+.reglinks > label{
+    color: #FFD800;
+}
+.reglinks > a{
+    align-items: center;
+    padding: 20px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+
+/*------end of Top Bar ---------
+
+
+/*-----------Nav Bar---------*/
+
+
+.navbar{
+    background-color: black;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.nav-link{
+    color: #FFFFFF;
+}
+
+.nav-link:hover{
+    color: #FFD800;
+}
+.navbar-toggler{
+    color: #FFD800;
+}
+.btn{
+    padding: 10px 10px;
+    width: 130px;
+    height: 40px;
+    background-color: #FFD800;
+    color: black;
+    border-radius: 6px;
+    transition: .4s;
+    border: none;
+    font-size: 13px;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #FFD800;
+    
+}
+.btnn{
+    width: 120px;
+    padding: 5px 5px;
+    border-radius: 6px;
+    background-color: white;
+    border: none;
+    transition: .4s;
+}
+.btnn:hover{
+    background-color: #FFD800;
+    color: white;
+}
+.btnnn{
+    width: 95px;
+    height: 30px;
+    border-radius: 6px;
+    border: none;
+    background-color: #FFD800;
+    color: black;
+}
+
+/*------End of NavBar------*/
+
+/*-------header section----------*/
+
+#header{
+    width: 100%;
+}
+.header{
+    padding: 50px 150px;
+    height: 60vh;
+    background-image: url(images/routes\ img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.header h1{
+    text-align: right;
+    margin-top: 330px;
+    color: #fff;
+}
+.about-content{
+    padding: 40px 150px;
+}
+.abt-cont{
+    width: 750px;
+    display: grid;
+    gap: 20px;
+}
+.abt-cont h4{
+    font-size: 36px;
+}
+.abt-cont p{
+    font-size: 16px;
+}
+.routes{
+    padding: 20px 150px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    row-gap: 50px;
+    column-gap: 20px;
+}
+.route-imgs{
+
+}
+.route-imgs label{
+   width: 100%;
+   margin: auto;
+   padding: auto;
+}
+
+/*-------end of header section-------*/
+
+
+
+/*------------------footer----------*/
+
+
+
+
+#footer{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+.firstbar{
+    display: flex;
+    padding-top: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.firstbar h1{
+    font-size: 16px;
+    color: #FFD800;
+}
+.secondbar{
+    display: grid;
+    padding: 20px;
+    margin-left: 60px;
+    margin-top: 15px;
+    display: flex;
+    color: #fff;
+}
+.texxt{
+    width: 200px;
+    border: none;
+    height: 30px;
+    padding: 0 10px;
+}
+.texxt::placeholder{
+    font-size: 14px;
+    opacity: 30%;
+}
+.texxt:focus{
+    outline: none;
+}
+.newsletter > .button{
+    height: 30px;
+    width: 80px;
+    border: .5px solid #FFD800;
+    background-color: black;
+    color: #FFF;
+    font-size: 14px;
+}
+.newsletter > .button:hover{
+    background-color: #FFF;
+    color: #000;
+}
+.logos{
+    margin-left: 100px;
+}
+.logos button{
+    width: 150px;
+}
+.lists{
+    margin-left: 60px;
+    display: flex;
+}
+.list1{
+    margin-left: 125px;
+    font-size: 16px;
+    display: grid;
+    gap: 15px;
+}
+.list2{
+    margin-left: 175px;
+    font-size: 16px;
+    display: grid;
+    gap: 15px;
+}
+.thirdbar{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+#footer hr{
+    color: #fff;
+    border: 1px solid #fff;
+    margin-top: 20px;
+}
+.socials{
+    display: flex;
+    gap: 20px;
+    color: #FFF;
+}
+.btnnn{
+    margin-left: -110px;
+    background-color: #FFD800;
+    color: black;
+    width: auto;
+    height: 45px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    padding: 0 30px;
+    transition: .5s;
+}
+.btnnn:hover{
+    color: #FFF;
+}
+.lastbar{
+    display: flex;
+    color: #FFF;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 27px;
+}
+.lastbar p{
+    font-size: 16px;
+}
+.legal{
+    display: flex;
+    gap: 70px;
+}
